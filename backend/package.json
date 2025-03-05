@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "npm install && npm run client",
-    "client": "cd ../frontend && npm install -f && npm run build && cd ../backend && npm install -f && npm run start",
+    "client": "cd ../frontend && npm install -f && npm run build",
     "start": "node ./src/server.js"
   },
   "keywords": [],
