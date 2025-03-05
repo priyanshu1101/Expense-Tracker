@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+    background-color: #ffffff;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #eee;
+    font-family: 'Arial', sans-serif;
+}
+
+.burger-icon {
+    font-size: 28px;
+    cursor: pointer;
+    color: #444;
+    transition: color 0.3s ease-in-out;
+}
+
+.burger-icon:hover {
+    color: #000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+    flex-grow: 1;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 12px 20px;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .burger-icon {
+        font-size: 26px;
+    }
+}
